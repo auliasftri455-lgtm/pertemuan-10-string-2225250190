@@ -95,3 +95,52 @@ String dalam Python dapat digunakan untuk mengolah teks secara sederhana dan ter
 ## 9. Bantuan dan Referensi
 Materi utama: Bahan Ajar Algoritma dan Pemrograman, Pertemuan 10 — String dan Pengolahan Teks dalam Python.
 Perangkat yang digunakan: Visual Studio Code dan Python.
+
+## Kuis Formatif
+
+1. Apa perbedaan string dan list pada Python?
+String adalah kumpulan karakter yang digunakan untuk menyimpan teks, sedangkan list adalah kumpulan elemen yang dapat berisi berbagai jenis data. String bersifat immutable, sedangkan list dapat diubah setelah dibuat.
+
+2. Mengapa string disebut immutable?
+String disebut immutable karena karakter di dalamnya tidak dapat diubah secara langsung setelah string dibuat. Jika ingin mengubah teks, kita perlu membuat string baru.
+
+3. Apa hasil dari "'Python'[1:4]"?
+Hasilnya adalah "yth". Indeks dimulai dari 0, sehingga slicing mengambil karakter pada indeks 1, 2, dan 3, tetapi tidak mengambil indeks 4.
+
+4. Apa fungsi "strip()"?
+Method "strip()" digunakan untuk menghapus spasi atau karakter tertentu di bagian awal dan akhir string. Method ini tidak menghapus spasi berlebih di antara kata.
+
+5. Kapan "lower()" lebih tepat daripada "title()"?
+"lower()" lebih tepat ketika teks perlu diubah menjadi huruf kecil seluruhnya, misalnya untuk membandingkan teks tanpa membedakan huruf besar dan kecil. Sementara itu, "title()" digunakan untuk membuat huruf pertama setiap kata menjadi huruf kapital.
+
+6. Apa perbedaan "split()" dan "join()"?
+"split()" digunakan untuk memisahkan string menjadi beberapa bagian dalam bentuk list. Sementara itu, "join()" digunakan untuk menggabungkan beberapa string menjadi satu string dengan pemisah tertentu.
+
+7. Bagaimana memeriksa apakah kata "'data'" terdapat dalam suatu string?
+Kita dapat menggunakan operator "in".
+
+Contoh:
+
+teks = "Pengolahan data mahasiswa"
+print("data" in teks)
+
+Hasil:
+
+True
+
+8. Apa arti hasil "-1" dari "find()"?
+Hasil "-1" menunjukkan bahwa teks atau karakter yang dicari tidak ditemukan di dalam string.
+
+9. Mengapa normalisasi teks perlu dilakukan sebelum perbandingan?
+Normalisasi teks diperlukan agar format teks menjadi konsisten, misalnya dengan menghapus spasi berlebih dan menyamakan penggunaan huruf besar atau kecil. Dengan demikian, perbandingan teks dapat dilakukan dengan lebih tepat.
+
+10. Perintah apa yang digunakan untuk mengirim commit ke GitHub?
+Perintah yang digunakan adalah "git push".
+
+Contoh:
+
+git push
+
+Jika baru pertama kali menghubungkan branch lokal ke repository GitHub, perintah yang dapat digunakan adalah:
+
+git push -u origin main
