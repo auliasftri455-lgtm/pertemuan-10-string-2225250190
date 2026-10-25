@@ -144,3 +144,6 @@ git push
 Jika baru pertama kali menghubungkan branch lokal ke repository GitHub, perintah yang dapat digunakan adalah:
 
 git push -u origin main
+
+## Catatan Pengembangan
+Pada pertemuan ini, saya mempelajari penggunaan string dalam Python, termasuk indexing, slicing, method string, pembersihan teks, "split()", "join()", dan pencarian kata. Saya juga menerapkan materi tersebut dalam program normalisasi data mahasiswa serta mengunggah hasil pekerjaan ke GitHub menggunakan Git.
